@@ -2,7 +2,7 @@
 
 MLOps means **Machine Learning Operations**: the practices that help a team build, deliver, and maintain machine learning systems reliably. Training a model is one step. A useful system also needs repeatable experiments, checks before release, and monitoring after people start using it.
 
-This introduction is adapted from [Core Principles of MLOps](ga_repo/microlesson-01/README.md). It is designed for students who know a little Python and are new to operating machine learning systems. You do not need previous cloud or deployment experience.
+This introduction is adapted from [Core Principles of MLOps](microlesson-01/README.md). It is designed for students who know a little Python and are new to operating machine learning systems. You do not need previous cloud or deployment experience.
 
 ## What you will learn
 
@@ -55,7 +55,7 @@ You will also encounter these terms:
 
 ## Hands-on: track a forest classification experiment
 
-Start with [the student notebook](microlesson-01-student.ipynb). Use [the live demonstration notebook](microlesson-01-live.ipynb) to review the MLflow implementation after trying the exercise.
+Start with [the student notebook](microlesson-02/microlesson-02-student.ipynb). Use [the live demonstration notebook](microlesson-02/microlesson-02-live.ipynb) to review the MLflow implementation after trying the exercise.
 
 The notebooks use a random forest classifier to predict forest cover type from terrain and soil information. They download the dataset on the first run, select 50,000 samples, and split that subset into training and test data. An internet connection is needed for the initial download.
 
@@ -124,4 +124,4 @@ Read these in order, starting with the broad introduction:
 1. [NVIDIA: What Is MLOps?](https://blogs.nvidia.com/blog/what-is-mlops/) — an accessible overview of the field, the teams involved, and why organizations need practices for managing the ML lifecycle.
 2. [Google Cloud: MLOps — Continuous delivery and automation pipelines in machine learning](https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning) — a deeper explanation of how workflows progress from manual processes to automated training and delivery. Use it to connect CI, CD, and CT to the wider lifecycle.
 3. [MLOps Tools Compared](MLOps_Tools_Comparison.md) — the local reference for comparing infrastructure and automation tools discussed in this lesson.
-4. [Original microlesson: Core Principles of MLOps](ga_repo/microlesson-01/README.md) — the source lesson on which this introduction is based.
+4. [Original microlesson: Core Principles of MLOps](microlesson-01/README.md) — the source lesson on which this introduction is based.
